@@ -1,0 +1,37 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    color: #031B4E;
+}
+.navbar-laravel {
+    background-color: #043CFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+a.navbar-brand,.navbar-laravel a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.preline{
+    white-space: pre-line;
+}
+
+.title{
+    margin-top: 75px;
+} 
+
+.panel-heading{
+    font-size: 2em;
+}
+
+.container{
+    padding-top: 25px;
+}
